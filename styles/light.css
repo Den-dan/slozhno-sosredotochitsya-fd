@@ -12,5 +12,19 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --accent-color: #FF8DCB;
+  --background-color: #FFF1F7;
+  --main-subtitle-color: #353430;
+  --text-color: #353430;
+  --main-title-color: #353430;
+  --title-color: #FFC2E6;
+  --header-background: url(../images/cover-image-light.png);
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid color-mix(in srgb, var(--main-title-color) 60%, white)
 }
