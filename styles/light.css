@@ -26,5 +26,5 @@
 }
 
 .theme-light .header__theme-menu-button:hover {
-  border: 1px solid color-mix(in srgb, var(--main-title-color) 60%, white)
+  outline: 1px solid color-mix(in srgb, var(--main-title-color) 60%, white)
 }
