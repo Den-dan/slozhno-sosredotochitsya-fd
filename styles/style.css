@@ -268,11 +268,6 @@
     margin-top: 172px;
   }
 
-  .header__description {
-    align-self: end;
-    margin-bottom: 162px;
-  }
-
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     position: absolute;
@@ -291,6 +286,8 @@
   .header__description {
     justify-self: end;
     width: 50%;
+    align-self: end;
+    margin-bottom: 162px;
   }
 
   .main {
